@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+
+    background: white;
+
+    border-radius: 18px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.house-image{
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-row h1 {
+    color: #252A45;
+    font-family: sans-serif,"Inter";
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.price-row span{
+    background-color: #FDE2E2;
+    color: #9B2C2C;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+.card-content .name-house {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif,Arial;
+    font-size: 22px;
+    color: #252A45;
+}
+
+.location {
+    padding-bottom: 18px;
+    font-family: sans-serif, Arial;
+    color: #8A8A8A;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    border-top: 1px solid rgb(207, 207, 207);
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding: 20px;
+    font-weight: bold;
+    font-family: sans-serif, Arial;
+}
+
+.details i{
+    color: #8A8A8A;
+}
+
+.details span{
+    font-weight: normal;
+    color: #616161;
+}
+
+.agent img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.agent {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.agent-details {
+    margin-left: 20px;
+}
+
+.agent p{
+    margin-top: 5px;
+    color: #8A8A8A;
+}
